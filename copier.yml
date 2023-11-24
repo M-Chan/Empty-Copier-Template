@@ -1,0 +1,24 @@
+
+project_name:
+  type: str
+  help: The name of your project
+
+git_platform:
+  type: str
+  help: Where is your remote repo located?
+  choices:
+    - GitHub
+    - GitLab
+
+full_name:
+  type: str
+  help: What's your full name?
+  placeholder: FirstName LastName
+
+project_description:
+  type: str
+  help: A short description of your project
+
+docker_containers:
+  type: bool
+  help: Are you working with Docker containers?
